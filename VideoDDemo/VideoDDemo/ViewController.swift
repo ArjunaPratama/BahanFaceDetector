@@ -70,7 +70,7 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
                 }
                 
                 //Degree of supnicess
-                let array = ["Low", "Medium", "VeryHigh"]
+                let array = ["Low", "Medium", "High", "VeryHigh"]
                 var supspectDegree = 0
                 
                 if !face.hasMouthPosition {supspectDegree += 1}
