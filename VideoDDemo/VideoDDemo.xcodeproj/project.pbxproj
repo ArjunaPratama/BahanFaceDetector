@@ -16,6 +16,7 @@
 		DCC58C3A1FC45DE50091DDDB /* VideoDDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC58C391FC45DE50091DDDB /* VideoDDemoUITests.swift */; };
 		DCC58C481FC46DF70091DDDB /* Screen Shot 2017-11-18 at 10.16.19.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC58C471FC46DF70091DDDB /* Screen Shot 2017-11-18 at 10.16.19.png */; };
 		DCC58C4A1FC475BB0091DDDB /* IMG_8081.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DCC58C491FC475BB0091DDDB /* IMG_8081.JPG */; };
+		DCFBF4541FC5176D00C055C7 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFBF4531FC5176D00C055C7 /* CameraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		DCC58C3B1FC45DE50091DDDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCC58C471FC46DF70091DDDB /* Screen Shot 2017-11-18 at 10.16.19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-11-18 at 10.16.19.png"; sourceTree = "<group>"; };
 		DCC58C491FC475BB0091DDDB /* IMG_8081.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_8081.JPG; sourceTree = "<group>"; };
+		DCFBF4531FC5176D00C055C7 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				DCC58C251FC45DE50091DDDB /* Info.plist */,
 				DCC58C471FC46DF70091DDDB /* Screen Shot 2017-11-18 at 10.16.19.png */,
 				DCC58C491FC475BB0091DDDB /* IMG_8081.JPG */,
+				DCFBF4531FC5176D00C055C7 /* CameraViewController.swift */,
 			);
 			path = VideoDDemo;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			files = (
 				DCC58C1C1FC45DE50091DDDB /* ViewController.swift in Sources */,
 				DCC58C1A1FC45DE50091DDDB /* AppDelegate.swift in Sources */,
+				DCFBF4541FC5176D00C055C7 /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +441,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = VideoDDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.developermuslim.VideoDDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -451,6 +456,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = VideoDDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.developermuslim.VideoDDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
